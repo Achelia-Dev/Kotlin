@@ -2,8 +2,15 @@ Basic Codes:
 
 CODE:var
 USING FOR:Create variable and they can changeable.
-EXAMPLE:fun main(){ var olgun = 18=}
+EXAMPLE:fun main(){ var olgun = 18}
 
 CODE:let
 USING FOR:Create variable but they can't change.
-EXAMPLE:fun main(){ let olgun = 18=}
+EXAMPLE:fun main(){ let olgun = 18}
+
+CODE://
+USING FOR:Comment the line you are using.
+EXAMPLE://fun main(){ var olgun = 18  
+                            print(olgun)  }
+This code is not working because double slash is commenting its own line
+
