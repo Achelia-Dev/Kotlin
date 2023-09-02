@@ -14,3 +14,41 @@ EXAMPLE://fun main(){ var olgun = 18
                             print(olgun)  }
 This code is not working because double slash is commenting its own line
 
+
+DATA TYPES:
+
+Byte  ---- 1 byte  ----- [-128 , 127]
+
+Short ---- 2 byte  ----- [-32768 , 32767]
+
+Int  ----- 4 byte  ----- [-2**31 , 2**31 -1]
+
+Long ----- 8 byte ------- [ -2**63  , 2**63 -1]
+
+Double --- 8 byte ------ [float (up to 8 bits)]
+
+Float ---- 4 byte ----- [float (up to 4 byte)]
+
+Char ---- 2 byte ----- [String]
+
+Boolean ---- 1 byte ---- [True or False]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
