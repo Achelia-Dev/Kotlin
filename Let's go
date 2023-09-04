@@ -96,6 +96,18 @@ OUTPUT --------->>>>>>> Kotlin: Only safe (?.) or non-null asserted (!!.) calls 
 
 
 
+ELVİS OPERATOR
+
+ // Null check with Elvis operator.
+    val length = name?.length ?: 0
+    println("Name Length: $length")
+
+//If name = null , output = 0
+// If name = String , outpout = name.length 
+
+
+
+
 
 
 
