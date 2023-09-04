@@ -35,6 +35,80 @@ Boolean ---- 1 byte ---- [True or False]
 
 
 
+To specify or specify the type of data type
+
+var o:string = olgun
+
+var olgun:Int = 1
+        .
+        .
+        . 
+        .
+
+
+
+CODE:LENGTH
+
+You can know strings letter length
+
+EXAMPLAE:
+fun main(){o = "olgun"
+  println(o.length)}
+
+
+NULL SAFE
+
+fun main(){var olgun = null
+print(olgun)}
+
+OUTPUT --------->>>>>>>>> null
+
+fun main(){var olgun:String = null
+print(olgun)}
+
+OUTPUT --------->>>>>>> Kotlin: Null can not be a value of a non-null type String
+
+
+fun main(){var olgun:String? = null
+    print(olgun?.length)}
+
+
+OUTPUT --------->>>>>>> null
+
+
+fun main(){var olgun:String? = null
+    print(olgun.length)}
+
+//If you write like this this variable can be a null
+//"?" avoids clutter and avoids problems variables can be null and "!!" this type is dangerous because it can run the code but if the code is wrong all your effort is wasted
+
+OUTPUT --------->>>>>>> Kotlin: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type String?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
