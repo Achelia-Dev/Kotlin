@@ -82,22 +82,17 @@ fun main(){var olgun:String? = null
 //If you write like this this variable can be a null
 //"?" avoids clutter and avoids problems variables can be null and "!!" this type is dangerous because it can run the code but if the code is wrong all your effort is wasted
 
-OUTPUT --------->>>>>>> Kotlin: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type String?
+OUTPUT --------->>>>>>> Kotlin: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type String
 
 
+ // Null check using Elvis operator
+    val length = name?.length ?: 0
+    println("Name Length: $length")
 
-
-![resim](https://github.com/Achelia-Dev/Kotlin/assets/110783589/3bca7c28-7374-48be-81e5-77a117a55f89)
-
-
-
-
-
-
-
-
-
-
+    // Using unsafe call 
+    // Calling without checking if name variable is null
+    val upperCaseName = name!!.toUpperCase()
+    println("Uppercase Name: $upperCaseName")
 
 
 
@@ -105,7 +100,22 @@ OUTPUT --------->>>>>>> Kotlin: Only safe (?.) or non-null asserted (!!.) calls 
 
 
 
-https://github.com/Achelia-Dev/Kotlin/blob/main/Screenshot%202023-09-04%20171521.png?raw=true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
